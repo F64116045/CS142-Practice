@@ -1,0 +1,50 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+}
+
+.box {
+    width: 100px;
+    display: block;
+    height: 300px ; /* 設置總高度為200px，包括padding和border */
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 40px;
+    box-sizing: border-box; /* 確保padding和border被計入總高度 */
+    padding-left: 10px; /* 左邊距 */
+    margin-top: 4px; /* 上外邊距 */
+    padding-top: 10px; /* 上內邊距 */
+}
+
+/* 分別調整每個區塊的高度和外邊距 */
+#A {
+    height: 100px;
+}
+
+#B {
+    height: 100px;
+}
+
+#C {
+    height: 100px;
+}
+
+#D {
+    height: 100px;
+}
+
+#E {
+    height: 100px;
+}
+
+#F {
+    height: 100px;
+    margin-top: 4px;
+    background-color: darkslategray;
+    color: white;
+}
