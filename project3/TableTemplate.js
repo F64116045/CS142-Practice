@@ -7,7 +7,7 @@ class TableTemplate {
 
       const headerRow = table.rows[0];
       const headers = Array.from(headerRow.cells);
-      headers.forEach((cell) => {
+      headers.forEach((cell) => { //
         const tp = new TemplateProcessor(cell.textContent);
         cell.textContent = tp.fillIn(dictionary);
       });
